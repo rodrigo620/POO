@@ -18,6 +18,7 @@ print(soma)
 #Calculando média dos valores
 media = soma/ len(valores)
 print(media)
+#Percorrendo a lista e separando os valores maiores que a média
 maior = []
 for valor in valores:
     if valor > media:
