@@ -18,3 +18,4 @@ print(soma)
 #Calculando média dos valores
 media = soma/ len(valores)
 print(media)
+#testando pasta
