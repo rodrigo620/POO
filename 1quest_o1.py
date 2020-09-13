@@ -6,3 +6,6 @@ while True:
     else:
         print(valores)
         break
+print (*valores, sep=(";"))
+valores.reverse()
+print(*valores, sep=("#"))
