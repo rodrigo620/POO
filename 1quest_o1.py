@@ -15,3 +15,6 @@ print(*valores, sep=("#"))
 #Somando os itens ou valores da lista.
 soma = sum(valores)
 print(soma)
+#Calculando média dos valores
+media = soma/ len(valores)
+print(media)
