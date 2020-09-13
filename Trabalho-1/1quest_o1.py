@@ -1,7 +1,7 @@
 valores = []
 # Capturando os valores/itens da lista.
 while True:
-    numero = int(input("numero: "))
+    numero = float(input("numero: "))
     if numero != -1:
         valores.append(numero)
     else:
@@ -18,4 +18,9 @@ print(soma)
 #Calculando média dos valores
 media = soma/ len(valores)
 print(media)
-#testando pasta
+maior = []
+for valor in valores:
+    if valor > media:
+        maior.append(valor)
+print(maior)
+print("O progama foi finalizado com sucesso")
